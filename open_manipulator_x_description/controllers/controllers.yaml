@@ -18,7 +18,7 @@ velocity_controller:
       - joint2
       - joint3
       - joint4
-      - gripper
+      # - gripper
 
 joint_trajectory_controller:
   ros__parameters:
@@ -27,7 +27,7 @@ joint_trajectory_controller:
       - joint2
       - joint3
       - joint4
-      - gripper
+      # - gripper
 
     command_interfaces:
       - position
